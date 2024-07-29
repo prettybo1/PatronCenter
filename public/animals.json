@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "name": "Гібсон",
+      "age": 1,
+      "description": "Очень дружелюбный пес",
+      "imageUrl": "https://imgur.com/a/Bo0Xakk"
+    },
+    {
+      "id": 2,
+      "name": "Боб",
+      "age": 4,
+      "description": "Активный и игривый",
+      "imageUrl": "https://drive.google.com/uc?export=view&id=1VOKLn4yWvXW77q1fqDMPHJxp_jv2YSW0"
+    },
+    {
+      "id": 3,
+      "name": "Бак",
+      "age": 5,
+      "description": "Очень игривый",
+      "imageUrl": "https://drive.google.com/uc?export=view&id=1EY5v1Lzyn91RjtruIQ7jszPDqdnUV9g2"
+    }
+]
