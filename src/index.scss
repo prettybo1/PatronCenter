@@ -1,0 +1,19 @@
+$sky_blue: #90cdea;
+
+body {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-style: normal;
+  background-color: white; // Светло-голубой цвет фона
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%; // Ширина контента, вы можете изменить её по своему усмотрению
+  max-width: 1500px; // Максимальная ширина, если хотите
+  background-color: white; // Цвет фона контента
+}
