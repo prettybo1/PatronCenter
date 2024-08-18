@@ -1,0 +1,38 @@
+$main_color: #247ba8;
+
+.Partners {
+  font-family: "Days One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+    text-align: center;
+    padding-top: 88px;
+  
+    h2 {
+      margin-bottom: 44px;
+      font-size: 2em;
+      color: black;
+    }
+  
+    .partners-logos {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 20px; // Отступы между логотипами
+    }
+  
+    .partner-logo {
+      width: 320px;
+      height: 250px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      img {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+      }
+    }
+  }
+  
