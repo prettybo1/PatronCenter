@@ -64,7 +64,7 @@ export default function Footer() {
         </div>
         
         <div className="footer-qr">
-          <img src="/qr-code/qr-code1.png" alt="QR Code" />
+          <img src="/qr-code/petqr-code.png" alt="QR Code" />
         </div>
       </div>
     </footer>
