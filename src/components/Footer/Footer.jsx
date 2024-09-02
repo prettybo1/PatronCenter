@@ -8,6 +8,8 @@ import { AiOutlinePhone } from "react-icons/ai";
 export default function Footer() {
   return (
     <footer className="footer">
+      <h3>Контакти</h3>
+
       <div className="footer-content">
         <div className="footer-map">
           <iframe
@@ -23,17 +25,16 @@ export default function Footer() {
         </div>
 
         <div className="footer-contacts">
-          <h3>Контакти</h3>
           <p>
-          <TfiLocationPin />
-          проспект Академіка Глушкова, 1
+            <TfiLocationPin />
+            проспект Академіка Глушкова, 1
           </p>
           <p>
-          <AiOutlineMail />
-          Help@patron.center
+            <AiOutlineMail />
+            Help@patron.center
           </p>
           <p>
-          <AiOutlinePhone />
+            <AiOutlinePhone />
             +380 95 911 1110
           </p>
 
@@ -61,10 +62,9 @@ export default function Footer() {
             </a>
           </div>
         </div>
-
+        
         <div className="footer-qr">
           <img src="/qr-code/qr-code1.png" alt="QR Code" />
-          <p>Стань нашим героєм</p>
         </div>
       </div>
     </footer>

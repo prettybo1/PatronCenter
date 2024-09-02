@@ -8,8 +8,8 @@ $white_color: #ffffff;
   font-weight: 400;
   font-style: normal;
   background-color: $main_color;
-  margin-top: 48px;
-  padding: 24px;
+  margin-top: 58px;
+  padding: 44px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -17,11 +17,22 @@ $white_color: #ffffff;
   position: absolute;
   left: 0;
 
+  h3 {
+    margin-top: 48px;
+    position: absolute;
+    top: 0; 
+    left: 50%;
+    transform: translate(-50%, -100%); /* коррекция смещения для центрирования */
+    color: $white_color;
+    font-size: 1.8em;
+  }
+
   .footer-content {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content:space-between;
+    align-items: center;
     width: 100%;
+    margin-top: 28px;
   }
 
   .footer-map {
@@ -30,29 +41,28 @@ $white_color: #ffffff;
 
     iframe {
       border-radius: 28px;
+      height: 348px;
+      width: 628px;
     }
   }
+
 
   .footer-contacts {
     flex: 1;
     text-align: center;
-
-    h3 {
-      margin-bottom: 10px;
-      color: white;
-      font-size: 1.8em;
-    }
+    position: relative;
 
     p {
-      margin: 24px 0;
+      margin: 28px 0px;
       font-size: 1.2em;
       color: white;
     }
 
     .social-icons {
-      margin-top: 15px;
+      margin-top: 28px;
       a {
-        margin: 0 10px;
+        padding: 14px;
+        margin: 0 14px;
         font-size: 1.5em;
         color: white;
         transition: color 0.3s;
@@ -74,15 +84,9 @@ $white_color: #ffffff;
     img {
       border: 4px solid $main_color;
       box-shadow: 0 0 0 4px $white_color;
-      max-width: 300px;
-      height: 200px;
+      max-width: 320px;
+      height: 348px;
       border-radius: 14px;
-    }
-
-    p {
-        margin: 24px 0;
-      font-size: 1.2em;
-      color: white;
     }
   }
 }
