@@ -9,7 +9,6 @@ export default function Footer() {
   return (
     <footer className="footer">
       <h3>Контакти</h3>
-
       <div className="footer-content">
         <div className="footer-map">
           <iframe
@@ -62,7 +61,7 @@ export default function Footer() {
             </a>
           </div>
         </div>
-        
+
         <div className="footer-qr">
           <img src="/qr-code/qr2.png" alt="QR Code" />
         </div>
