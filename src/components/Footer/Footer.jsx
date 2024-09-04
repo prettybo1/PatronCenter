@@ -64,6 +64,7 @@ export default function Footer() {
 
         <div className="footer-qr">
           <img src="/qr-code/qr2.png" alt="QR Code" />
+          <button className="help-button">Допомога притулку</button>
         </div>
       </div>
     </footer>
