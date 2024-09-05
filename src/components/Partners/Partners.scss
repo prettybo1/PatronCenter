@@ -1,4 +1,5 @@
 $main_color: #247ba8;
+$light_black: #333333;
 
 .Partners {
   font-family: "Days One", sans-serif;
@@ -10,7 +11,7 @@ $main_color: #247ba8;
     h2 {
       margin-bottom: 44px;
       font-size: 2em;
-      color: black;
+      color: $light_black;
     }
   
     .partners-logos {

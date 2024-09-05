@@ -104,18 +104,19 @@ $white_color: #ffffff;
 
     .help-button {
       margin-top: 38px;
-      background-color: #247ba8;
+      background-color: $main_color;
       color: $white_color;
       border: none;
-      padding: 14px 28px; /* Увеличиваем отступы */
-      font-size: 1.1em; /* Увеличиваем размер шрифта */
+      padding: 12px 24px;
+      font-size: 1.2rem; /* Задаем фиксированный размер шрифта */
       border: 3px solid $white_color;
       border-radius: 5px;
       cursor: pointer;
+      transform-origin: center; /* Центрируем точку трансформации */
       transition:
         background-color 0.3s,
         transform 0.3s;
-
+    
       &:hover {
         transform: scale(1.1);
       }

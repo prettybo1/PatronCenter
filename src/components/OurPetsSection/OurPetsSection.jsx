@@ -7,7 +7,7 @@ import "./OurPetsSection.scss";
 const pets = [
   {
     id: 1,
-    name: "Боб",
+    name: "Бак",
     height: "40 см",
     description: "Дружелюбный и активный пес, любит играть.",
     image: "/dogs_photo/bak.jpg",
@@ -62,7 +62,7 @@ export default function OurPetsSection() {
   };
 
   return (
-    <section className="OurPetsSection">
+    <section id = "ourPetsSection" className="OurPetsSection">
       <h2>Наші улюбленці</h2>
       <Slider {...settings}>
         {pets.map((pet) => (

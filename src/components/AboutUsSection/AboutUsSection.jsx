@@ -25,7 +25,7 @@ export default function AboutUsSection() {
     }, []);
 
     return (
-        <section className='AboutUs'>
+        <section id = "aboutUs" className='AboutUs'>
             <div className="AboutUs-content">
                 <h2>Про нас</h2>
                 <div className="images">

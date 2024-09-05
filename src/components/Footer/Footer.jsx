@@ -6,8 +6,13 @@ import { TfiLocationPin } from "react-icons/tfi";
 import { AiOutlinePhone } from "react-icons/ai";
 
 export default function Footer() {
+    // Функция для обработки клика по кнопке
+    const handleButtonClick = () => {
+      window.open("https://send.monobank.ua/jar/7djZ5jubgj", "_blank");
+    };
+
   return (
-    <footer className="footer">
+    <footer id = "footerAdress" className="footer">
       <h3>Контакти</h3>
       <div className="footer-content">
         <div className="footer-map">
@@ -64,7 +69,7 @@ export default function Footer() {
 
         <div className="footer-qr">
           <img src="/qr-code/qr2.png" alt="QR Code" />
-          <button className="help-button">Допомога притулку</button>
+          <button className="help-button" onClick={handleButtonClick}>Допомога притулку</button>
         </div>
       </div>
     </footer>

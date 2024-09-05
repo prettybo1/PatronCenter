@@ -1,4 +1,7 @@
 $main_color: #247ba8;
+$yellow_color: #ffce6f;
+$light_black: #333333;
+$orange_color: #dd8b00;
 
 .OurPetsSection {
   font-family: "Days One", sans-serif;
@@ -7,6 +10,7 @@ $main_color: #247ba8;
   position: relative;
   padding: 5px 10px;
   text-align: center;
+  color: $light_black;
   
 
   h2 {
@@ -18,7 +22,7 @@ $main_color: #247ba8;
   .slick-slider {
     position: relative;
     max-width: 100%;
-    margin-bottom: 60px; // Отступ для кнопки и точек
+    margin-bottom: 80px; // Отступ для кнопки и точек
   }
 
   .slick-slide {
@@ -26,7 +30,7 @@ $main_color: #247ba8;
   }
 
   .pet-card {
-    background: #fff;
+    background: #ffffff;
     border-radius: 18px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -45,7 +49,7 @@ $main_color: #247ba8;
     }
 
     .pet-info {
-      flex-grow: 1; // Позволяет описанию занимать оставшееся место
+      flex-grow: 1;
       padding: 20px;
       overflow: hidden;
 
@@ -58,20 +62,20 @@ $main_color: #247ba8;
       p {
         margin: 14px 0;
         font-size: 1em;
-        color: black;
+        color: $light_black;
       }
     }
   }
 
   .buttons {
     position: absolute;
-    bottom: -40px; // Немного выше, чтобы кнопка оказалась под точками
+    bottom: -40px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 1;
 
     .catalogueButton {
-      background-color: #ffce6f;
+      background-color: $yellow_color;
       color: $main_color;
       border: none;
       padding: 18px 28px;
@@ -82,7 +86,7 @@ $main_color: #247ba8;
         transform 0.3s;
 
       &:hover {
-        background-color: #dd8b00;
+        background-color: $orange_color;
         transform: scale(1.1);
       }
     }
